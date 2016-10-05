@@ -240,8 +240,9 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
-#portfolio li {
+#portfolio ol, ul {
   font-size: 18px;
+  list-style-type: none;
 }
 
 @media (min-width: 767px) {
