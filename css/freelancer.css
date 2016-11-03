@@ -243,7 +243,6 @@ section.success {
 #portfolio ol, ul {
   font-size: 18px;
   list-style-type: none;
-  padding: 0 10%;
 }
 
 @media (min-width: 767px) {
