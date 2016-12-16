@@ -17,7 +17,9 @@
  @media only screen and (max-width:768px){.owl-nav div{background-size:cover;width:30px;height:31px}.owl-carousel .owl-video-wrapper{padding:20px;height:350px}.owl-carousel iframe{height:290px;padding:10px}.social_wrap{padding-top:0}.social_wrap ul{padding:0;margin:50px 0 0}.head{padding-top:40px}.zoom-gallery a span i{font-size:30px}.zoom-gallery a span p{padding:0;font-size:14px;line-height:1.6}}
 
  @media only screen and (max-width:480px){.owl-carousel .owl-video-wrapper{padding:20px;height:300px}
- .owl-carousel iframe{height:230px;padding:10px}
+ .owl-carousel iframe{height:230px;padding:10px
+	// max-width: 100%;
+ }
  .mfp-close-btn-in .mfp-container .mfp-content{width:95%}
  .mfp-close-btn-in .mfp-container .mfp-content h2{font-size:28px}
  .mfp-close-btn-in .mfp-container .mfp-content p{font-size:18px}
