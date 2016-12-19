@@ -1,0 +1,85 @@
+@color: #445162; //Theme skin
+@text_color: #445161;
+@text_invert_color: #ffffff;
+@main_color: #445161;
+@bg_light: #ffffff;
+@bg_darker: #f5f5f5;
+
+
+body {
+	background-color: darken(@color, 15%);
+	color: @main_color;
+}
+
+a {
+	color: @color;
+}
+
+p {
+	color: darken(@color, 15%);
+}
+
+.color_element {
+	color: @color;
+}
+
+.color_bg {
+	background-color: @color;
+}
+
+.color_border {
+	border-color: @color;
+}
+
+.header {
+	background-color: @color;
+	h1, p {
+		color: @text_invert_color;
+	}
+	.logo {
+		background-color: @bg_light;
+	}
+}
+.about, .scrinshots, .buy_1, .buy_2 {
+	background-color: #ffffff;
+	.logo {
+		background-color: @color;
+	}
+}
+
+.dignity, .review {
+	background-color: @bg_darker;
+}
+
+.logo_round {
+	background-color: @color;
+}
+
+.msg {
+	background-color: darken(@bg_darker, 5%);
+	span {
+		color: darken(@bg_darker, 40%);
+	}
+}
+.arrow {
+	background-color: darken(@bg_darker, 5%);
+}
+
+.box {
+	background-color: @color;
+
+	h3 {
+		color: @text_invert_color;
+	}
+	p {
+		background-color: @bg_light;
+		color: @text_color;		
+	}
+	ol {
+		color: @text_invert_color;
+	}
+	button {
+		background-color: @bg_light;
+
+	}
+}
