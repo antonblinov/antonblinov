@@ -20,32 +20,35 @@ body {
   color: #ffffff;
   background: url(../img/bg1.jpg) center center no-repeat;
   background-size: cover;
+  overflow-y: hidden;
 }
 header {
   height: 50px;
 }
 header h1 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 1.66em;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin: auto;
-  margin-top: 12px;
+  line-height: 55px;
+  margin: 0;
 }
 header h1 span {
   color: #7ca2dd;
 }
 header h2 {
-  font-size: 18px;
+  font-size: 1em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin-top: 22px;
+  line-height: 60px;
+  margin: 0;
 }
 header a {
   color: #ffffff;
   text-decoration: underline;
   float: right;
-  margin-top: 22px;
+  line-height: 55px;
+  margin: 0;
 }
 header a:hover {
   color: #ffffff;
@@ -66,17 +69,17 @@ section h1 {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.66em;
   text-align: center;
   margin-top: 24vh;
 }
 section h1 span {
-  font-size: 48px;
+  font-size: 1.6em;
 }
 section h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.33em;
   text-align: center;
   margin-top: 5vh;
 }
@@ -109,7 +112,7 @@ footer {
   opacity: 0.77;
 }
 footer p {
-  margin-top: 11px;
+  line-height: 40px;
   float: right;
   color: #404040;
 }
