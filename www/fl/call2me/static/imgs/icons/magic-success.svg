@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-Result" transform="translate(-12.000000, -82.000000)" fill="#76A840">
+            <g id="Magic-Help" transform="translate(0.000000, 69.000000)">
+                <g id="Notification">
+                    <g id="Title---History" transform="translate(12.000000, 10.000000)">
+                        <path d="M9,8 C9,10.209139 7.209139,12 5,12 C2.790861,12 1,10.209139 1,8 C1,5.790861 2.790861,4 5,4 C5.38,4 5.75,4.055 6.1,4.155 L6.885,3.37 C6.305,3.13 5.67,3 5,3 C2.23857625,3 2.22044605e-16,5.23857625 0,8 C-6.66133815e-16,9.32608245 0.526784202,10.597852 1.46446609,11.5355339 C2.40214799,12.4732158 3.67391755,13 5,13 C6.32608245,13 7.59785201,12.4732158 8.53553391,11.5355339 C9.4732158,10.597852 10,9.32608245 10,8 L9,8 Z M2.955,7.04 L2.25,7.75 L4.5,10 L9.5,5 L8.795,4.29 L4.5,8.585 L2.955,7.04 L2.955,7.04 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

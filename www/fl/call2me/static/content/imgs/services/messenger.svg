@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>messenger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="12" cy="12" rx="12" ry="12"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="26" height="26">
+            <rect x="-1" y="-1" width="26" height="26" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-255.000000, -45.000000)">
+            <g id="Icons" transform="translate(2.000000, 4.000000)">
+                <g id="Services" transform="translate(2.000000, 36.000000)">
+                    <g id="messenger" transform="translate(252.000000, 6.000000)">
+                        <g id="Oval-2">
+                            <use fill="#0084FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M12.6343587,14.0866776 L11.0088722,12.3530606 L7.8372107,14.0866776 L11.3260516,10.3829787 L12.9911278,12.1166612 L16.1231995,10.3829787 L12.6343587,14.0866776 L12.6343587,14.0866776 Z M12,6.12765957 C8.47479714,6.12765957 5.61702128,8.77374795 5.61702128,12.0378396 C5.61702128,13.8977414 6.54524016,15.5567921 7.99576743,16.6401309 L7.99576743,18.893617 L10.169121,17.7008183 C10.7491343,17.8613421 11.3635993,17.9480196 12,17.9480196 C15.5252687,17.9480196 18.3829787,15.3019313 18.3829787,12.0378396 C18.3829787,8.77374795 15.5252687,6.12765957 12,6.12765957 L12,6.12765957 Z" id="Fill-14" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

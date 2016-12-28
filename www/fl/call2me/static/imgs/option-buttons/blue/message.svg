@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="30px" viewBox="0 0 40 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Read Message</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-767.000000, -341.000000)" fill="#4990E2">
+            <g id="btns" transform="translate(755.000000, 88.000000)">
+                <path d="M49.5,278 C49.5,278.25375 49.45125,278.49375 49.38125,278.7225 L38.25,266.75 L49.5,258 L49.5,278 L49.5,278 Z M16.445,280.4325 L27.725,268.4125 L32,271.64375 L36.09,268.3925 L47.555,280.4325 C47.37625,280.47375 16.62375,280.47375 16.445,280.4325 L16.445,280.4325 Z M14.5,278 L14.5,258 L25.75,266.75 L14.61875,278.7225 C14.54875,278.49375 14.5,278.25375 14.5,278 L14.5,278 Z M48.25,255.5 L32,268 L15.75,255.5 L48.25,255.5 L48.25,255.5 Z M47,253 L17,253 C14.23875,253 12,255.23875 12,258 L12,278 C12,280.76125 14.23875,283 17,283 L47,283 C49.76125,283 52,280.76125 52,278 L52,258 C52,255.23875 49.76125,253 47,253 L47,253 Z" id="Read-Message"></path>
+            </g>
+        </g>
+    </g>
+</svg>

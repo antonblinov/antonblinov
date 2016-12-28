@@ -1,0 +1,420 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=cyrillic';
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #666;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding-top: 60px;
+}
+a:hover {
+  color: #ff9955;
+}
+.container {
+  width: 100%;
+  padding: 0;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+/* Content
+---------------------------------------------------- */
+.vcontainer {
+  position: relative;
+  width: 254px;
+  padding-right: 54px;
+  display: table;
+  margin-right: 52px;
+  height: 400px;
+  margin-top: 50px;
+  margin: 60px auto 0;
+}
+.vcontainer .vcontent {
+  display: table;
+  border: 1px solid #ccc;
+  height: 400px;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.vcontainer .optional-buttons {
+  width: 55px;
+  padding-left: 0px;
+  color: #4990e2;
+  font-size: 10px;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  height: 100%;
+  padding-top: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.vcontainer .optional-buttons .option-button {
+  text-align: center;
+  margin-bottom: 31px;
+  transition: all .5s ease;
+}
+.vcontainer .optional-buttons .option-button p {
+  font-size: 11px;
+  line-height: 12px;
+}
+.vcontainer .optional-buttons .option-button:last-child {
+  margin-bottom: 0;
+}
+.vcontainer .optional-buttons .option-button img {
+  width: 23px;
+  margin-bottom: 0px;
+}
+.vcontainer .optional-buttons .option-button:hover {
+  color: #ff9955;
+}
+.vcontainer .vmain-card {
+  width: 100%;
+  background-color: #fff;
+  height: 200px;
+  position: relative;
+}
+.vcontainer .vmain-card .userpic {
+  width: 100%;
+  height: 200px;
+  background: #ccc;
+  border-radius: 5px;
+  display: block;
+}
+.vcontainer .vinfo {
+  width: 100%;
+  margin: 8px 0;
+  padding: 0 15px;
+  text-align: center;
+  display: block;
+  background-color: #fff;
+}
+.vcontainer .vinfo p {
+  text-align: left !important;
+}
+.vcontainer .vinfo .about {
+  height: 35px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 12px;
+}
+.vcontainer .vinfo .vname {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+}
+.vcontainer .vinfo .vname .official {
+  width: 13px;
+  vertical-align: baseline;
+}
+.vcontainer .vinfo .position {
+  line-height: 20px;
+  font-size: 13px;
+  margin: 2px 0 3px;
+}
+.vcontainer .vinfo .business-contacts .email,
+.vcontainer .vinfo .business-contacts .assistant,
+.vcontainer .vinfo .business-contacts .phone {
+  text-align: center;
+}
+.vcontainer .vinfo .business-contacts .email a,
+.vcontainer .vinfo .business-contacts .assistant a,
+.vcontainer .vinfo .business-contacts .phone a {
+  display: block;
+  width: 100%;
+}
+.vcontainer .vinfo .business-contacts .email img,
+.vcontainer .vinfo .business-contacts .assistant img,
+.vcontainer .vinfo .business-contacts .phone img {
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+.vcontainer .vinfo .status .status-description {
+  text-align: left;
+}
+.vcontainer .website img {
+  width: 10px;
+  margin-right: 5px;
+}
+.vcontainer .business-contacts {
+  width: 100%;
+  display: block;
+}
+.vcontainer .business-contacts .services {
+  width: 25px;
+  float: left;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.vcontainer .business-contacts .services img {
+  width: 25px !important;
+}
+.vcontainer .business-contacts .services .border-round {
+  content: " ";
+  width: 25px;
+  border-radius: 50%;
+  height: 25px;
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -12.5px;
+  z-index: 1;
+  display: block;
+  transition: all .5s ease;
+}
+.vcontainer .business-contacts .services a {
+  position: relative;
+}
+.vcontainer .business-contacts .services a:hover .border-round {
+  border: 2px solid #ff9955;
+  box-shadow: 1px 2px 2px #ccc;
+}
+.vcontainer .business-contacts .messengers,
+.vcontainer .business-contacts .social {
+  width: 78%;
+  display: block;
+}
+.vcontainer .business-contacts .social .border-round,
+.vcontainer .business-contacts .messengers .border-round {
+  top: -11px !important;
+}
+.vcontainer .business-contacts .email,
+.vcontainer .business-contacts .phone,
+.vcontainer .business-contacts .assistant {
+  width: 35px;
+}
+.vcontainer .business-contacts .assistant img {
+  width: 28px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+.vcontainer .business-contacts .assistant .name {
+  line-height: 32px;
+}
+.vcontainer .business-contacts .title {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.vcontainer .status {
+  margin: 5px 0;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.vcontainer .status .status-online {
+  background: green;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.vcontainer .status .status-description {
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 118px;
+}
+.vcontainer .modules .tabs {
+  width: 55%;
+  float: left;
+  font-size: 16px;
+}
+.vcontainer .modules .tabs ul {
+  list-style-type: none;
+  margin: 0 0 0 35px;
+  padding: 2px 0;
+}
+.vcontainer .modules .tabs ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #999;
+}
+.vcontainer .modules .tabs ul li:hover {
+  color: #337ab7;
+}
+.vcontainer .modules .tabs .active {
+  font-weight: 600;
+  color: #000;
+}
+.vcontainer .modules .tab-content .tab-card {
+  display: none;
+}
+.vcontainer .modules .tab-content .active {
+  display: block;
+}
+.vcontainer .modules .sort-down {
+  width: 12px;
+}
+.vcontainer .modules .head-row {
+  width: 100%;
+  clear: both;
+  display: table;
+  margin: 15px 0 5px;
+}
+.vcontainer .modules .head-row .title {
+  float: left;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.vcontainer .modules .head-row .month {
+  float: right;
+  margin-right: 40px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.vcontainer .modules .week-table {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.vcontainer .modules .week-table ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  display: table;
+}
+.vcontainer .modules .week-table ul li {
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 100px;
+  display: block;
+  float: left;
+  margin: 0 0 0 0px;
+  padding: 5px 0;
+}
+.vcontainer .modules .week-table ul li:hover {
+  background: #ccc;
+}
+.vcontainer .modules .week-table .day-of-week {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.vcontainer .modules .week-table .today {
+  background: #eee;
+}
+.vcontainer .modules .week-table .arrow-right,
+.vcontainer .modules .week-table .arrow-left {
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+}
+.vcontainer .modules .week-table .arrow-right img,
+.vcontainer .modules .week-table .arrow-left img {
+  width: 12px;
+}
+.vcontainer .modules .week-table .arrow-right {
+  right: 6px;
+}
+.vcontainer .modules .week-table .arrow-left {
+  left: 6px;
+}
+.vcontainer .modules .data {
+  width: 600px;
+  overflow-x: scroll;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+.vcontainer .modules .data th {
+  background: #eee;
+}
+.vcontainer .modules .data td,
+.vcontainer .modules .data th {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.vcontainer .modules .data tr:nth-child(n+4) {
+  display: none;
+}
+.vcontainer .modules .data tr:nth-child(1) td {
+  font-weight: 400;
+}
+.vcontainer .modules .data .action {
+  text-align: right;
+}
+.vcontainer .modules .data .action img {
+  width: 30px;
+}
+.vcontainer .modules #schedule-more,
+.vcontainer .modules #schedule-less {
+  text-align: center;
+  display: block;
+  margin: 15px 0;
+}
+.vcontainer .modules #schedule-less {
+  display: none;
+}
+.row {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+.statistics {
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  margin: 25px 0;
+}
+.statistics .item {
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+}
+/* Tooltip container */
+.xtooltip {
+  position: relative;
+}
+/* Tooltip text */
+.xtooltip .xtooltiptext {
+  display: none;
+  width: 250px;
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  border: 1px solid #777;
+  top: -5px;
+  left: 110%;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.xtooltip:hover .xtooltiptext {
+  display: block;
+}
+#datepicker {
+  width: 0px;
+  display: none;
+  position: absolute;
+  bottom: 0;
+}
+.dropdown-toggle {
+  background-color: #87AADE !important;
+  margin: -1px;
+}
+.dropdown-toggle:hover,
+.dropdown-toggle:active,
+.dropdown-toggle:link {
+  background-color: #6793ca !important;
+}

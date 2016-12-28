@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,24 C18.627417,24 24,18.627417 24,12 C24,5.372583 18.627417,0 12,0 C5.372583,0 0,5.372583 0,12 C0,18.627417 5.372583,24 12,24 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="26" height="26">
+            <rect x="-1" y="-1" width="26" height="26" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-296.000000, -44.000000)">
+            <g id="Icons" transform="translate(2.000000, 4.000000)">
+                <g id="Services" transform="translate(2.000000, 36.000000)">
+                    <g id="Plus" transform="translate(305.970563, 17.970563) rotate(45.000000) translate(-305.970563, -17.970563) translate(293.970563, 5.970563)">
+                        <g id="Oval">
+                            <use fill="#4990E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M6,11.7650779 C6,11.5379821 6.18050263,11.3574795 6.40759842,11.3574795 L11.3512426,11.3574795 L11.3512426,6.41346842 C11.3516095,6.18637263 11.5379821,6 11.7650779,6 C11.9921737,6 12.1726763,6.18637263 12.1726763,6.41346842 L12.1726763,11.3574795 L17.1163206,11.3574795 C17.3434163,11.3574795 17.529789,11.5379821 17.529789,11.7650779 C17.529789,11.9921737 17.3434163,12.1785464 17.1163206,12.1785464 L12.1726763,12.1785464 L12.1726763,17.1225574 C12.1726763,17.3496532 11.9921737,17.5360259 11.7650779,17.5360259 C11.5379821,17.5360259 11.3516095,17.3496532 11.3516095,17.1225574 L11.3516095,12.1785464 L6.40759842,12.1785464 C6.18050263,12.1785464 6,11.9921737 6,11.7650779 Z" id="Shape" fill="#FFFFFF" transform="translate(11.764894, 11.768013) rotate(45.000000) translate(-11.764894, -11.768013) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

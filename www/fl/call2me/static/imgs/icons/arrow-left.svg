@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="29px" viewBox="0 0 16 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-right" transform="translate(8.000000, 14.500000) scale(-1, 1) translate(-8.000000, -14.500000) " fill="#9B9B9B">
+            <g id="Page-1">
+                <g id="next">
+                    <path d="M15.3246533,13.6320309 L1.92917085,0.236548391 C1.613773,-0.0788494638 1.10794625,-0.0788494638 0.792548391,0.236548391 C0.477150536,0.551946246 0.477150536,1.057773 0.792548391,1.37317085 L13.6167442,14.1973667 L0.792548391,27.0215625 C0.477150536,27.3369603 0.477150536,27.8427871 0.792548391,28.1581849 C0.947271867,28.3129084 1.15555347,28.396221 1.35788417,28.396221 C1.56021487,28.396221 1.76849647,28.3188593 1.92321995,28.1581849 L15.3187024,14.7627024 C15.6341003,14.4532555 15.6341003,13.9414778 15.3246533,13.6320309 L15.3246533,13.6320309 L15.3246533,13.6320309 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

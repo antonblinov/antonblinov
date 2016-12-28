@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-Result" transform="translate(-389.000000, -139.000000)" fill="#87AADE">
+            <g id="Magic-Help" transform="translate(0.000000, 69.000000)">
+                <g id="Search">
+                    <g id="Search-Result-Line" transform="translate(8.000000, 64.500000)">
+                        <g id="Action" transform="translate(381.000000, 5.500000)">
+                            <path d="M10.0987973,2.31795033 C10.3211875,2.09432618 10.3211875,1.72161926 10.0987973,1.50946301 L8.76445589,0.167718113 C8.55347029,-0.0559060376 8.18281991,-0.0559060376 7.96042969,0.167718113 L6.911204,1.21703143 L9.04957157,3.36726365 L10.0987973,2.31795033 Z M0,8.1723159 L0,10.3225481 L2.13836757,10.3225481 L8.44512634,3.97506262 L6.30675876,1.82483041 L0,8.1723159 L0,8.1723159 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,531 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=cyrillic';
+@container-width: 100%;
+@info-width: 100%;
+@services-width: 100%;
+@call-width: 30px;
+@left-width: 100%;
+@orange: #ff9955;
+@blue: #337ab7;
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+}
+
+body {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 300;
+ 	color: #666;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	width: 100%;
+	padding-top: 60px;
+}
+
+a {
+	&:hover {
+		color: @orange;
+	}
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+}
+
+.mb15 {
+	margin-bottom: 15px;
+}
+
+
+/* Content
+---------------------------------------------------- */
+
+.vcontainer {
+    position: relative;
+    width: 254px;
+    padding-right: 54px;
+    display: table;
+    margin-right: 52px;
+    height: 400px;
+    margin-top: 50px;
+    margin: 60px auto 0;
+
+    .vcontent {
+        display: table;
+        border: 1px solid #ccc;     
+        height: 400px;
+        background-color: #fff;
+        padding-bottom: 10px;
+    }
+
+    .optional-buttons {
+        width: 55px;
+        padding-left: 0px;
+        color: #4990e2;
+        font-size: 10px;
+        position: absolute;
+        right: 0px;
+        top: 0;
+        height: 100%;
+        padding-top: 15px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+
+        .option-button {
+                text-align: center;
+                margin-bottom: 31px;
+                transition: all .5s ease;
+
+                p {
+                    font-size: 11px;
+                    line-height: 12px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                img {
+                    width: 23px;
+                    margin-bottom: 0px;
+                }
+
+                &:hover {
+                    color: @orange;
+                    
+                }
+        }
+    }
+
+
+
+    .vmain-card {
+        width: 100%;
+        background-color: #fff;
+        height: 200px;
+        position: relative;
+
+        .userpic {
+            width: 100%;
+            height: 200px;
+            background: #ccc;
+            border-radius: 5px;
+            display: block;
+        }
+
+    }
+
+    .vinfo {
+        width: 100%;
+        margin: 8px 0;
+        padding: 0 15px;
+        text-align: center;
+        display: block;
+        background-color: #fff;    
+
+        p {
+            text-align: left !important;
+        }
+
+        .about {
+            height: 35px;
+            display: table-cell;
+            vertical-align: middle;
+            width: @info-width;
+            font-size: 12px;
+        }
+
+        .vname {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 14px;
+
+            .official {
+                width: 13px;
+                vertical-align: baseline;
+            }
+        }
+
+        .position {
+            line-height: 20px;
+            font-size: 13px;
+            margin: 2px 0 3px;
+        }
+
+        .business-contacts {
+            
+
+            .email, .assistant, .phone {
+                text-align: center;
+
+                a {
+                    display: block;
+                    width: 100%;
+                }
+
+                img {
+                    margin: 0 auto;
+                    display: block;
+                    float: none;
+                }
+            }
+        }
+
+        .status {
+
+            .status-description {
+                text-align: left;
+            }
+        }
+    }
+
+
+
+
+    .website {
+        img {
+            width: 10px;
+            margin-right: 5px;
+        }
+    }
+
+    .business-contacts {
+        width: 100%;
+        display: block;
+
+
+        .services {
+            width: 25px;
+            float: left;
+            margin-bottom: 10px;
+            text-align: left;
+
+            img {
+                width: 25px !important;
+            }
+
+            .border-round {
+                content: " ";
+                width: 25px;
+                border-radius: 50%;
+                height: 25px;
+                background: none;
+                border: 2px solid  rgba(255,255,255,0);
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                margin-left: -12.5px;
+                z-index: 1;
+                display: block;
+                transition: all .5s ease;
+            }
+
+            a {
+                position: relative;
+
+                &:hover .border-round {
+                    border: 2px solid #ff9955;
+                    box-shadow: 1px 2px 2px #ccc;
+                }
+            }
+        }
+
+        .messengers, .social {
+            width: 78%;
+            display: block;
+        }
+
+        .social, .messengers {
+            .border-round {
+                top: -11px !important;
+            }
+        }
+
+        .email, .phone, .assistant {
+            width: 35px;
+        }
+
+        .assistant {
+            img {
+                width: 28px;
+                border-radius: 50%;
+                float: left;
+                margin-right: 10px;
+            }
+
+            .name {
+                line-height: 32px;
+            }
+        }
+
+        .title {
+            margin-bottom: 0px;
+            font-size: 12px;
+        }
+    }
+
+    .status {
+        margin: 5px 0;
+        display: block;
+        float: left;
+        width: 100%;
+
+        .status-online {
+            background: green;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .status-description {
+            font-size: 12px;
+            line-height: 12px;
+            display: inline-block;
+            vertical-align: middle;
+            width: 118px;
+        }
+    }
+
+    .modules {
+
+        .tabs {
+            width: 55%;
+            float: left;
+            font-size: 16px;
+
+            ul {
+                list-style-type: none;
+                margin: 0 0 0 35px;
+                padding: 2px 0;
+
+                li {
+                    display: inline-block;
+                    margin-right: 20px;
+                    color: #999;
+
+                    &:hover {
+                        color: @blue;
+                    }
+                }
+            }
+
+            .active {
+                font-weight: 600;
+                color: #000;
+            }
+        }
+
+        .tab-content {
+            .tab-card {
+                display: none;
+            }
+
+            .active {
+                display: block;
+            }
+        }
+
+        .sort-down {
+            width: 12px;
+        }
+
+        .head-row {
+            width: 100%;
+            clear: both;
+            display: table;
+            margin: 15px 0 5px;
+
+            .title {
+                float: left;
+                margin-left: 40px;
+                font-size: 20px;
+            }
+
+            .month {
+                float: right;
+                margin-right: 40px;
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+
+        .week-table {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                margin: 0 auto;
+                display: table;
+
+                li {
+                    text-align: center;
+                    border: 1px solid #ccc;
+                    width: 100px;
+                    display: block;
+                    float: left;
+                    margin: 0 0 0 0px;
+                    padding: 5px 0;
+
+                    &:hover {
+                        background: #ccc;
+                    }
+                }
+            }
+
+            .day-of-week {
+                font-size: 20px;
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+            }
+
+
+            .today {
+                background: #eee;
+            }
+
+            .arrow-right, .arrow-left {
+                display: inline-block;
+                position: absolute;
+                top: 9px;
+
+                img {
+                    width: 12px;
+                }
+            }
+
+            .arrow-right {
+                right: 6px;
+            }
+
+            .arrow-left {
+                left: 6px;
+            }
+        }
+
+        .data {
+            width: 600px;
+            overflow-x: scroll;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            margin-top: 15px;
+
+            th {
+                background: #eee;
+            }
+
+            td, th {
+                padding: 10px;
+                border-bottom: 1px solid #ccc;
+            }
+
+            tr:nth-child(n+4) {
+                display: none;
+            }
+
+            tr:nth-child(1) {
+                td {
+                    font-weight: 400;
+                }
+            }
+
+            .action {
+                text-align: right;
+
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+        #schedule-more, #schedule-less {
+            text-align: center;
+            display: block;
+            margin: 15px 0;
+        }
+
+        #schedule-less {
+            display: none;
+        }
+    }
+}
+
+.row {
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+
+
+.statistics {
+	width: 100%;
+	margin: 0 auto;
+	display: table;
+	margin: 25px 0;
+
+	.item {
+		width: 25%;
+		float: left;
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+
+/* Tooltip container */
+.xtooltip {
+    position: relative;
+}
+
+/* Tooltip text */
+.xtooltip .xtooltiptext {
+    display: none;
+    width: 250px;
+    background-color: #fff;
+    color: #444;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #777;
+    top: -5px;
+    left: 110%;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.xtooltip:hover .xtooltiptext {
+    display: block;
+}
+
+#datepicker {
+	width: 0px;
+	display: none;
+	position: absolute;
+	bottom: 0;
+}
+
+.dropdown-toggle {
+
+	&:hover, &:active, &:link {
+		background-color: #6793ca !important;
+	}
+
+	& {
+		background-color: #87AADE !important;
+		margin: -1px;
+	}
+}
