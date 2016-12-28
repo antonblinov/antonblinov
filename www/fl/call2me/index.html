@@ -68,9 +68,9 @@
 			<input  class="name-field" type="text" placeholder="Call him">
 		</div>
 		<div class="atTime">
-			<p class="datetime"><label for="datetime">Time:</label><input type="datetime" name="datetime" placeholder="9/12 10:05"></p>
+			<p class="datetime"><label for="datetime">Time:</label><input type="datetime" name="datetime" id="datetime" placeholder="9/12 10:05"></p>
 			<p class="in">
-				<label for="in">In</label><input type="text" list="mydata" name="in" placeholder="  3 hours">
+				<label for="in">In</label><input type="text" list="mydata" name="in" id="in" placeholder="  3 hours">
 				<datalist id="mydata">
 				    <option label="1 hour" value="1 hour">
 				    <option label="2 hours" value="2 hours">
@@ -78,7 +78,7 @@
 				</datalist>
 			</p>
 			<p class="before">
-				<label for="before">Before</label><input type="text" list="mydata1" name="before" placeholder="10 mins">
+				<label for="before">Before</label><input type="text" list="mydata1" name="before" id="before" placeholder="10 mins">
 				<datalist id="mydata1">
 				    <option label="10 mins" value="10 mins">
 				    <option label="30 mins" value="30 mins">
@@ -90,8 +90,8 @@
 		<div class="participants">
 			<div class="groups">
 				<p>Participants</p>
-				<span><p>#investors</p><a href="#" class="search-cancel js-search-cancel"><p>&#215</p></a></span>
-				<span><p>#friends</p><a href="#" class="search-cancel js-search-cancel"><p>&#215</p></a></span>
+				<div><p>#investors</p><a href="#" class="search-cancel js-search-cancel"><span>&#215;</span></a></div>
+				<div><p>#friends</p><a href="#" class="search-cancel js-search-cancel"><span>&#215;</span></a></div>
 			</div>
 			<div class="cm-buttons-3">
 				<div class="cm-button">
